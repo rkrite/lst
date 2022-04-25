@@ -30,9 +30,7 @@
     // =====================================
     if (!function_exists('GPutSession')){
         function GPutSession($key, $val) {
-
             session([$key => $val]);
-
             return session($key);
         }
     } // GPutSession
